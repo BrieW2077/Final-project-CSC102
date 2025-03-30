@@ -1,0 +1,34 @@
+/* Set the background gradient*/
+html{
+    background: linear-gradient(90deg,#031579, rgb(149, 251, 255));
+    color:rgb(255, 255, 255)
+}
+
+/* Style the body*/
+body{
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    padding: 200px;
+}
+
+/* Style for the heading h2 */
+h2{
+    margin: 50px; 
+    font-family: "Lobster"; 
+    text-shadow: 5px 0 #0038d3; /* Adds a shadow to the text*/
+    font-size: 40px; 
+    color: rgb(157, 232, 255); /* Main color of the heading*/
+    text-align: center; 
+    margin: auto;
+ }
+
+ li {
+    padding: 10px 20px; /* Adds 10px of padding on top/bottom and 20px on left/right inside each list item. */
+    font-size: 16px; /* Sets the font size of the text inside the list item to 16px. */
+    cursor: pointer; /* Changes the cursor to a pointer (hand) when hovering over the list item. */
+    border: none; /* Removes the default border around the list item. */
+    background-color: #ddedff; /* Sets the background color of the list item to a light blue shade (#ddedff). */
+    color: #426bdd; /* Sets the text color of the list item to a medium blue shade (#426bdd). */
+    border-radius: 5px; /* Rounds the corners of the list item with a 5px radius. */
+ }

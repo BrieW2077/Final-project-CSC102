@@ -1,0 +1,34 @@
+/* Set the background gradient*/
+html{
+    background: linear-gradient(90deg,rgb(3, 21, 121), rgb(149, 251, 255));
+    color:#ffffff
+}
+
+/* Style the body*/
+body {
+    width: 200px; /* Sets the width of the body content to 200px, restricting its horizontal size. */
+    margin: auto; /* Centers the body element horizontally by setting its left and right margins to auto. */
+    text-align: center; /* Centers the text inside the body element. */
+    padding: 200px; /* Adds 200px of padding on all sides inside the body. */
+}
+
+/* Style for the heading h1 */
+h1 {
+    margin: 50px; /* Adds 50px of margin around the h1 element. */
+    font-family: "Lobster"; /* Sets the font of the h1 heading to "Lobster". */
+    text-shadow: 5px 0 #0038d3; /* Adds a shadow to the text. */
+    font-size: 42px; /* Sets the font size of the h1 heading to 42px. */
+    color: rgb(157, 232, 255); /* Sets the text color of the heading to a light blue (rgb value). */
+    text-align: center; /* Centers the text inside the h1 element. */
+    margin: auto; /* Centers the h1 element itself horizontally by setting its margins to auto. */
+}
+
+ footer {
+    padding: 10px 20px; /* Adds 10px padding on top/bottom and 20px on left/right inside the footer. */
+    font-size: 16px; /* Sets the font size of the text inside the footer to 16px. */
+    cursor: pointer; /* Changes the cursor to a pointer (hand) when hovering over the footer. */
+    border: none; /* Removes the default border around the footer element. */
+    color: #ffffff; /* Sets the text color inside the footer to white. */
+    border-radius: 5px; /* Rounds the corners of the footer with a 5px radius. */
+    text-align: center; /* Centers the text inside the footer. */
+}

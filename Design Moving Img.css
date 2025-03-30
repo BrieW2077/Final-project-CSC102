@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center; /* Centers the text within the body. */
+    background: linear-gradient(90deg,rgb(3, 21, 121), rgb(149, 251, 255));/* Applies a linear gradient background from dark blue to light blue. */
+    margin: 0; /* Removes default margin around the body element. */
+    padding: 20px; /* Adds 20px padding inside the body element. */
+}
+html {
+    background: linear-gradient(90deg,rgb(3, 21, 121), rgb(149, 251, 255)); /* Applies a linear gradient background to the whole page from dark blue to light blue. */
+    color: rgb(97, 126, 206); /* Sets the default text color for the html element to a light blue shade. */
+}
+
+button {
+    font-size: 30px; /* Sets the font size of the button text to 30px. */
+    padding: 10px 20px; /* Adds 10px of padding on the top/bottom and 20px on the left/right inside the button. */
+    margin: 10px; /* Adds 10px of space around each button. */
+    border: none; /* Removes the default border around the button. */
+    border-radius: 5px; /* Rounds the corners of the button with a 5px radius. */
+    cursor: pointer; /* Changes the cursor to a pointer (hand) when hovering over the button. */
+}
+
+#goButton {
+    background-color: #68ffb4; /* Sets the background color of the 'goButton' to a light green. */
+    color: rgb(4, 185, 101); /* Sets the text color of the 'goButton' to a darker green. */
+}
+
+#stopButton {
+    background-color: #ff8787; /* Sets the background color of the 'stopButton' to a light red. */
+    color: rgb(197, 53, 34); /* Sets the text color of the 'stopButton' to a darker red. */
+}
+
+#cat {
+    position: absolute; /* Positions the 'cat' image absolutely within the page (relative to its nearest positioned ancestor). */
+    left: 300px; /* Positions the 'cat' image 300px from the left edge of its containing element. */
+    top: 300px; /* Positions the 'cat' image 300px from the top edge of its containing element. */
+    width: 500px; /* Sets the width of the 'cat' image to 500px. */
+}
+
+footer {
+    padding: 10px 20px; /* Adds padding of 10px top/bottom and 20px left/right inside the footer element. */
+    font-size: 16px; /* Sets the font size of the text inside the footer to 16px. */
+    cursor: pointer; /* Changes the cursor to a pointer (hand) when hovering over the footer. */
+    border: none; /* Removes the default border around the footer. */
+    color: #ffffff; /* Sets the text color of the footer to white. */
+    border-radius: 5px; /* Rounds the corners of the footer with a 5px radius. */
+    text-align: left; /* Aligns the text inside the footer to the left. */
+}

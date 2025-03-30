@@ -1,0 +1,36 @@
+/* Set the background gradient*/
+html{
+    background: linear-gradient(90deg,#031579, rgb(149, 251, 255));
+   
+}
+
+/* Style the body*/
+body{
+    width: 175px;
+    margin: auto;
+    text-align: center;
+    padding: 175px;
+}
+
+/* Style for the heading h1 */
+h1{
+    margin: 50px; 
+    font-family: "Lobster"; 
+    text-shadow: 5px 0 #0038d3; /* Adds a shadow to the text*/
+    font-size: 40px; 
+    color: rgb(157, 232, 255); /* Main color of the heading*/
+    text-align: center; 
+    margin: auto;
+ }
+
+
+
+ footer {
+    padding: 10px 20px; /* Adds 10px padding on top/bottom and 20px on left/right inside the footer. */
+    font-size: 16px; /* Sets the font size of the text inside the footer to 16px. */
+    cursor: pointer; /* Changes the cursor to a pointer (hand) when hovering over the footer. */
+    border: none; /* Removes the default border around the footer element. */
+    color: #ffffff; /* Sets the text color inside the footer to white. */
+    border-radius: 5px; /* Rounds the corners of the footer with a 5px radius. */
+    text-align: center; /* Centers the text inside the footer. */
+}

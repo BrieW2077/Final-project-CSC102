@@ -1,0 +1,44 @@
+/* 
+declartation Block:
+
+selector{
+   property: value;
+   property2: value;
+   property3: value3;
+}
+ */
+
+ html{
+   background: linear-gradient(90deg,rgb(3, 21, 121), rgb(149, 251, 255)); /* Applies a linear gradient background from dark blue to light blue. */
+   color:rgb(255, 255, 255)
+}
+ 
+nav {
+   height: 600px; /* Sets the height of the navigation bar to 600px. */
+   width: 200px; /* Sets the width of the navigation bar to 200px. */
+   float: left; /* Floats the navigation bar to the left side of the page, allowing content to flow next to it. */
+   padding: 5px; /* Adds 5px of padding inside the navigation bar. */
+   line-height: 30px; /* Sets the line height of the text inside the navigation items to 30px for better readability. */
+}
+ footer{
+    text-align: center; /* Centers h1 text. */
+    margin-right: 200px;
+ }
+
+ #KodaBear.jpg{
+    margin-right: 200px;
+ }
+
+ h1{
+    text-align: center; /* Centers h1 text. */
+ }
+
+ footer {
+   padding: 10px 20px; /* Adds 10px padding on top/bottom and 20px on left/right inside the footer. */
+   font-size: 16px; /* Sets the font size of the text inside the footer to 16px. */
+   cursor: pointer; /* Changes the cursor to a pointer (hand) when hovering over the footer. */
+   border: none; /* Removes the default border around the footer element. */
+   color: #ffffff; /* Sets the text color inside the footer to white. */
+   border-radius: 5px; /* Rounds the corners of the footer with a 5px radius. */
+   text-align: center; /* Centers the text inside the footer. */
+}

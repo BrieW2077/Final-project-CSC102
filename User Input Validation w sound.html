@@ -1,0 +1,65 @@
+<!-- Brielle Wheeling -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src = "Sound.js"></script>
+    <title>Login</title>
+    <link rel="stylesheet" href="Strings Design.css">
+</head>
+<body>
+    <!-- Main Heading of the page-->
+    <h1> Login</h1>
+    <br>
+<form id = "login" onsubmit = "return false">
+    <!-- First name label and input field-->
+    First Name: <input type = "text" id = "fName"/>
+    <br> <br>
+    <!--  name label and input field-->
+    Last name: <input type = "text" id = "lName"/>
+    <br> <br>
+    <!-- Badge Number input field-->
+    Badge Number: <input type = "number" id = "badgeID"/>
+    <br> <br>
+     <!-- Password input field-->
+    Password: <input type = "password" id = "PW"/>
+    <br> <br>
+    <!-- Submit button that triggers the JavaScript function "checkCreds()"-->
+    <input type = "submit" onclick = "checkCreds();">
+
+</form>
+     <!-- Paragraph to display login status-->
+    <P id = "loginStatus"></P>
+
+    <h1> Music </h1> <!-- Heading for the section -->
+
+    <audio controls> <!-- Audio player with controls -->
+        <source src = "AfterLife.mp3"></source> <!-- Source file for the audio -->
+    </audio>
+
+
+    <li> <a href = "Final Project.html">Back</a></li> 
+    <footer>
+        Brielle E Wheeling<br>
+        <nav>
+            <h2> Projects I Created in CSC102</h2> <!-- Paragraph element that introduces the list of projects.-->
+            <ul> <!-- Unordered list element to hold the links to different projects. -->
+                <li><a href = "Moving Image.html"> Moving Meme</a></li> <!-- List item with a hyperlink to 'Moving Image.html' page.-->
+                <br>  <!-- Line break tag, used here for spacing between list items-->
+                <li><a href = "FirstHTML.html"> Australian Shepherds!</a> </li> <!-- List item with a hyperlink to 'FirstHTML.html' page.-->
+                <br>
+                <li><a href = "Wheeling_Boards.html"> Board</a></li> <!-- List item with a hyperlink to 'Wheeling_Boards.html' page.-->
+                <br>
+                <li><a href = "Strings.html"> Is it a Palindrome?</a></li> <!-- List item with a hyperlink to 'Strings.html' page.-->
+                <br>
+                <li><a href = "Roll the Dice Game.html"> Dice Game</a></li> <!-- List item with a hyperlink to 'Roll the Dice Game.html' page.-->
+                <br>
+                <li><a href = "User Input Validation w sound.html"> Login</a></li> <!-- List item with a hyperlink to 'User input validation w sound.html' page.-->
+                <br>
+                <li><a href = "Table.html"> Table</a></li> <!-- List item with a hyperlink to 'Table.html' page.-->
+            </ul>
+        </nav>
+     </footer>
+</body>
+</html>
